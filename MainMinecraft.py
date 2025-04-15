@@ -14,14 +14,14 @@ class MinecraftGame:
         self.world.generate_terrain()
     
     def setup_window(self):
-        window.title = 'Python Minecraft'
+        window.title = 'Python Minecraft with Ursina'
         window.borderless = False
         window.fullscreen = False
         window.exit_button.visible = False
         window.fps_counter.enabled = True
     
     def setup_sky(self):
-        Sky(texture='sky_sunset')
+        Sky()
         
     def run(self):
         self.app.run()
