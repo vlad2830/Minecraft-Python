@@ -14,7 +14,7 @@ class MinecraftGame:
         self.world.generate_terrain()
     
     def setup_window(self):
-        window.title = 'Python Minecraft with Ursina'
+        window.title = 'Python Minecraft'
         window.borderless = False
         window.fullscreen = False
         window.exit_button.visible = False
